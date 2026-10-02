@@ -5,8 +5,8 @@ const SITE = {
   tagline: "Ultrasound machine sales, installation, repair and software support for hospitals and clinics across Pakistan.",
   phone: "03023335114",
   whatsapp: "923023335114",
-  email: "",
-  linkedin: "",
+  email: "khubaibshakeel012@gmail.com",
+  linkedin: "www.linkedin.com/in/khubaib-ahmad-b68a83387",
   address: "Rafay Mall, Peshawar Road, Rawalpindi",
   photo: "khubaib.jpeg",
 
