@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Khubaib Ahmed | Ultrasound Sales, Installation & Service in Pakistan</title>
+  <meta name="description" content="COO at Expert Group of Companies. Ultrasound sales, installation, repair and software support for hospitals and clinics across Pakistan.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="wrap bar">
+    <a href="#" class="logo" id="logo"></a>
+    <a class="btn wa small" id="hdrWa">WhatsApp</a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="eyebrow" id="company"></p>
+      <h1 id="name"></h1>
+      <p class="muted" id="role"></p>
+      <p class="tag" id="tagline"></p>
+      <div class="actions">
+        <a class="btn wa" id="heroWa">WhatsApp</a>
+        <a class="btn outline" id="heroCall">Call Now</a>
+      </div>
+    </div>
+    <img class="photo" id="photo" alt="" onerror="this.style.display='none'">
+  </div>
+</section>
+
+<section class="stats"><div class="wrap grid4" id="stats"></div></section>
+
+<section class="sec"><div class="wrap">
+  <h2>Services</h2><div class="cards" id="services"></div>
+</div></section>
+
+<section class="sec alt"><div class="wrap">
+  <h2>Brands I work with</h2><div class="pills" id="brands"></div>
+</div></section>
+
+<section class="sec"><div class="wrap">
+  <h2>How I work</h2><div class="cards" id="process"></div>
+</div></section>
+
+<section class="sec alt"><div class="wrap">
+  <h2 id="coverageTitle"></h2><div class="pills" id="cities"></div>
+</div></section>
+
+<section class="sec" id="contact"><div class="wrap">
+  <h2>Get in touch</h2>
+  <div class="cards contact" id="contactBox"></div>
+</div></section>
+
+<footer id="footer"></footer>
+<a class="float" id="floatWa" aria-label="WhatsApp">💬</a>
+
+<script src="data.js"></script>
+<script>
+  const $ = (id) => document.getElementById(id);
+  const wa = "https://wa.me/" + SITE.whatsapp;
+
+  document.title = SITE.name + " | Ultrasound Sales, Installation & Service in Pakistan";
+  $("logo").textContent = SITE.name;
+  $("name").textContent = SITE.name;
+  $("role").textContent = SITE.role;
+  $("company").textContent = SITE.company;
+  $("tagline").textContent = SITE.tagline;
+  $("photo").src = SITE.photo;
+  $("photo").alt = SITE.name;
+  ["hdrWa", "heroWa", "floatWa"].forEach((id) => ($(id).href = wa));
+  $("heroCall").href = "tel:" + SITE.phone;
+
+  $("stats").innerHTML = SITE.stats.map((s) => `<div><b>${s.value}</b><span>${s.label}</span></div>`).join("");
+
+  $("services").innerHTML = SITE.services.map((s) =>
+    `<div class="card"><div class="icon">${s.icon}</div><h3>${s.title}</h3><p>${s.text}</p></div>`).join("");
+
+  $("brands").innerHTML = SITE.brands.map((b) => `<span class="pill">${b}</span>`).join("");
+
+  $("process").innerHTML = SITE.process.map((p, i) =>
+    `<div class="card"><div class="num">${i + 1}</div><h3>${p.title}</h3><p>${p.text}</p></div>`).join("");
+
+  $("coverageTitle").textContent = SITE.coverageTitle;
+  $("cities").innerHTML = SITE.cities.map((c) => `<span class="pill dark">${c}</span>`).join("");
+
+  let contact = `<a href="tel:${SITE.phone}">📞 ${SITE.phone}</a><a href="${wa}">💬 WhatsApp</a>`;
+  if (SITE.email) contact += `<a href="mailto:${SITE.email}">✉️ ${SITE.email}</a>`;
+  contact += `<div>📍 ${SITE.address}</div>`;
+  if (SITE.linkedin) contact += `<a href="${SITE.linkedin}">🔗 LinkedIn</a>`;
+  $("contactBox").innerHTML = contact;
+
+  $("footer").textContent = "© " + new Date().getFullYear() + " " + SITE.name + " · " + SITE.company;
+</script>
+</body>
+</html>
