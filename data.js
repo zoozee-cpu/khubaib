@@ -1,6 +1,6 @@
 const SITE = {
   name: "Khubaib Ahmed",
-  role: "Chief Operating Officer",
+  role: "Sales executive & service enginerer",
   company: "Expert Group of Companies",
   tagline: "Ultrasound machine sales, installation, repair and software support for hospitals and clinics across Pakistan.",
   phone: "03023335114",
