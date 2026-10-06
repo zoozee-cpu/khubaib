@@ -1,6 +1,6 @@
 const SITE = {
   name: "Khubaib Ahmed",
-  role: "Sales executive & service enginerer",
+  role: "Ultrasound Sales & Service Engineer | Medical Equipment Sales, Installation, Repair & Software Support | Serving Clinics & Hospitals Across Pakistan",
   company: "Expert Group of Companies",
   tagline: "Ultrasound machine sales, installation, repair and software support for hospitals and clinics across Pakistan.",
   phone: "03023335114",
