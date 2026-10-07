@@ -1,12 +1,12 @@
 const SITE = {
   name: "Khubaib Ahmed",
-  role: "Ultrasound Sales & Service Engineer | Medical Equipment Sales, Installation, Repair & Software Support | Serving Clinics & Hospitals Across Pakistan",
+  role: "Ultrasound Sales & Service Engineer ",
   company: "Expert Group of Companies",
-  tagline: "Ultrasound machine sales, installation, repair and software support for hospitals and clinics across Pakistan.",
+  tagline: "Medical Equipment Sales, Installation, Repair & Software Support | Serving Clinics & Hospitals Across Pakistan",
   phone: "03023335114",
   whatsapp: "923023335114",
   email: "khubaibshakeel012@gmail.com",
-  linkedin: "www.linkedin.com/in/khubaib-ahmad-b68a83387",
+  linkedin: "https://www.linkedin.com/in/khubaib-ahmad-b68a83387/?isSelfProfile=true",
   address: "Rafay Mall, Peshawar Road, Rawalpindi",
   photo: "khubaib.jpeg",
 
