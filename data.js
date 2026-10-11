@@ -18,12 +18,12 @@ const SITE = {
   ],
 
   services: [
-    { icon: "🛒", title: "Ultrasound Sales", text: "New and refurbished systems matched to your clinic's needs and budget." },
-    { icon: "⚙️", title: "Installation", text: "On-site setup and commissioning at your clinic or hospital." },
-    { icon: "🔧", title: "Repair & Servicing", text: "Hands-on diagnosis and repair to minimise downtime." },
-    { icon: "💻", title: "Software Support", text: "Software installation, updates and configuration." },
-    { icon: "🧩", title: "Parts Replacement", text: "Probes, boards and other parts replaced properly." },
-    { icon: "🎓", title: "Demo & Training", text: "Live demos and operating guidance for doctors and staff." }
+    { icon: "+", title: "Ultrasound Sales", text: "New and refurbished systems matched to your clinic's needs and budget." },
+    { icon: "+", title: "Installation", text: "On-site setup and commissioning at your clinic or hospital." },
+    { icon: "+", title: "Repair & Servicing", text: "Hands-on diagnosis and repair to minimise downtime." },
+    { icon: "+", title: "Software Support", text: "Software installation, updates and configuration." },
+    { icon: "+", title: "Parts Replacement", text: "Probes, boards and other parts replaced properly." },
+    { icon: "+", title: "Demo & Training", text: "Live demos and operating guidance for doctors and staff." }
   ],
 
   brands: ["GE", "Philips", "Canon Medical Systems", "Toshiba", "Sonoscape"],
