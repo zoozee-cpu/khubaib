@@ -1,5 +1,5 @@
 const SITE = {
-  name: "Khubaib Ahmed",
+  name: "Engr.Khubaib Ahmed",
   role: "Ultrasound Sales & Service Engineer ",
   company: "Expert Group of Companies",
   tagline: "Medical Equipment Sales, Installation, Repair & Software Support | Serving Clinics & Hospitals Across Pakistan",
